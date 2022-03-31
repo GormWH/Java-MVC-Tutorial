@@ -26,6 +26,14 @@ dependencies {
 
     testImplementation("org.junit.jupiter:junit-jupiter-api:${junitVersion}")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${junitVersion}")
+
+    // https://mvnrepository.com/artifact/org.projectlombok/lombok
+    compileOnly 'org.projectlombok:lombok:1.18.22'
+
+    // https://mvnrepository.com/artifact/jstl/jstl
+    implementation 'jstl:jstl:1.2'
+
+
 }
 
 test {
